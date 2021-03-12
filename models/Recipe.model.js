@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const recipeSchema = new Schema({
-  // TODO: write the schema
+  Schema
 });
 
 const Recipe = mongoose.model('Recipe', recipeSchema);
